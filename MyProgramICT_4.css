@@ -1,0 +1,36 @@
+          
+   input[type=text], select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; }
+    #map_canvas {
+                height: 50%;
+            }
+
+            input[type=submit] {
+    background: #d9347b;
+  background-image: -webkit-linear-gradient(top, #d9347b, #972bb8);
+  background-image: -moz-linear-gradient(top, #d9347b, #972bb8);
+  background-image: -ms-linear-gradient(top, #d9347b, #972bb8);
+  background-image: -o-linear-gradient(top, #d9347b, #972bb8);
+  background-image: linear-gradient(to bottom, #d9347b, #972bb8);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 42px;
+  padding: 6px 13px 10px 20px;
+  text-decoration: none;
+  background: #fc3ca9;
+  background-image: -webkit-linear-gradient(top, #fc3ca9, #d634d9);
+  background-image: -moz-linear-gradient(top, #fc3ca9, #d634d9);
+  background-image: -ms-linear-gradient(top, #fc3ca9, #d634d9);
+  background-image: -o-linear-gradient(top, #fc3ca9, #d634d9);
+  background-image: linear-gradient(to bottom, #fc3ca9, #d634d9);
+  text-decoration: none;
+}

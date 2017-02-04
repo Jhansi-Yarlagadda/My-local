@@ -1,0 +1,32 @@
+<html>
+    <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript"  src= "MyProgramICT_4.js">
+    </script>
+<link rel="stylesheet" href="MyProgramICT_4.css">
+ </link >
+    <title>Distance Calculator</title>
+    
+    </head>
+    <body>
+
+    <body  onload="initialize()">
+    <h1>Enter your current location and desired destination to get the distance</h1>
+        <div>
+            <h2>
+                <label for="start">Origin  </label>
+                <font color="red"><span class="error">*</span></font> <input type="text" name="start" id="start" />
+                <label for="end">Destination </label>
+                <font color="red"><span class="error">*</span></font> <input type="text" name="end" id="end" />
+
+                <input type="submit" value="Calculate Route" onclick="calcRoute()" /> <br>
+            
+                <label for="distance">Distance in Miles: </label>
+                <input type="text" name="distance" id="distance" readonly="true" />
+            </h2>
+        </div>
+        <div id="map_canvas"></div>
+    </body>
+</html>
+
